@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de IMC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+</head>
+<body>
+    <h1 class="display-3 text-center" >Calculadora de ICM</h1>
+    <div class="col-md-6 mx-auto">
+        <form action="/bmicalculator" method="post">
+            <label class="form-label" for="n3">Peso (kg)</label>
+            <input type="number" class="form-control" step="0.01" id="n3" name="n3" placeholder="Peso">
+            <label class="form-label" for="n4">Altura (m)</label>
+            <input type="number" class="form-control" step="0.01" id="n4" name="n4" placeholder="Altura">
+            <button type="submit" class="btn btn-primary mt-4" name="submit">Calcular ICM</button>
+        </form>
+    </div>
+</body>
+</html>
