@@ -1,0 +1,1471 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="es-AR" datatype="plaintext" original="ng2.template" target-language="es-AR">
+    <body>
+      <trans-unit id="7546403253031591787" datatype="html">
+        <source>Error al conectarse al servicio</source>
+        <target>Error al conectarse al servicio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/handlers/app-error-handler.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4798961227159743968" datatype="html">
+        <source>Cerrar</source>
+        <target>Cerrar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/layouts/message-dialog/message-dialog.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.ts</context>
+          <context context-type="linenumber">154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="740484157946723524" datatype="html">
+        <source>Mensaje de error</source>
+        <target>Mensaje de error</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/layouts/message-dialog/message-dialog.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6143168124862335946" datatype="html">
+        <source> Descubre los Mejores Restaurantes </source>
+        <target>Restaurantes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/banner-home/banner-home.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5915882550237024880" datatype="html">
+        <source> Encuentra tu restaurante ideal, reserva tu mesa y disfruta de las mejores promociones gastronómicas de Córdoba. </source>
+        <target>Encuentra tu restaurante ideal, reserva tu mesa y disfruta de las mejores promociones gastronómicas de Córdoba.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/banner-home/banner-home.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6058362986597685071" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-search me-2&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Explorar Restaurantes </source>
+        <target>Restaurantes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/banner-home/banner-home.html</context>
+          <context context-type="linenumber">13,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6582879010398009896" datatype="html">
+        <source>Banner Home</source>
+        <target>Inicio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/banner-home/banner-home.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1108735189855660071" datatype="html">
+        <source>Buscar restaurantes con lenguaje natural...</source>
+        <target>Buscar restaurantes con lenguaje natural...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/buscador-nlp/buscador-nlp.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7765858111151299335" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-search me-1&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;d-none d-md-inline&quot;&gt;"/>Buscar<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target>Buscar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/buscador-nlp/buscador-nlp.html</context>
+          <context context-type="linenumber">20,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7537156229668085797" datatype="html">
+        <source>Por favor ingresa una búsqueda</source>
+        <target>Por favor ingresa una búsqueda</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/buscador-nlp/buscador-nlp.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6960759711739336358" datatype="html">
+        <source>La búsqueda no puede exceder 500 caracteres</source>
+        <target>La búsqueda no puede exceder 500 caracteres</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/buscador-nlp/buscador-nlp.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="27938269079184046" datatype="html">
+        <source>Dirección</source>
+        <target>Dirección</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/detalle-restaurante/detalle-restaurante.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8437243144618493917" datatype="html">
+        <source>Teléfono</source>
+        <target>Teléfono</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/detalle-restaurante/detalle-restaurante.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4768749765465246664" datatype="html">
+        <source>Email</source>
+        <target>Email</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/detalle-restaurante/detalle-restaurante.html</context>
+          <context context-type="linenumber">53,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4274935054059886393" datatype="html">
+        <source>Horario</source>
+        <target>Horario</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/detalle-restaurante/detalle-restaurante.html</context>
+          <context context-type="linenumber">62,63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="846986420217451773" datatype="html">
+        <source>Días de atención</source>
+        <target>Días de atención</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/detalle-restaurante/detalle-restaurante.html</context>
+          <context context-type="linenumber">73,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1563851922566456266" datatype="html">
+        <source>Capacidad</source>
+        <target>Capacidad</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/detalle-restaurante/detalle-restaurante.html</context>
+          <context context-type="linenumber">82,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5965569851521247507" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ restaurante.capacidad }}"/> personas</source>
+        <target>Capacidad: {INTERPOLATION} personas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/detalle-restaurante/detalle-restaurante.html</context>
+          <context context-type="linenumber">83,84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2228061406315590457" datatype="html">
+        <source>Tipo de cocina</source>
+        <target>Tipo de cocina</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/detalle-restaurante/detalle-restaurante.html</context>
+          <context context-type="linenumber">90,91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8152041600291841538" datatype="html">
+        <source>Información</source>
+        <target>Información</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/detalle-restaurante/detalle-restaurante.html</context>
+          <context context-type="linenumber">103,105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5308089386353373336" datatype="html">
+        <source>Activo</source>
+        <target>Activo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/detalle-restaurante/detalle-restaurante.html</context>
+          <context context-type="linenumber">106,107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3838676801008878481" datatype="html">
+        <source>Inactivo</source>
+        <target>Inactivo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/detalle-restaurante/detalle-restaurante.html</context>
+          <context context-type="linenumber">108,109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4062077207205566613" datatype="html">
+        <source>Calificación</source>
+        <target>Calificación</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/detalle-restaurante/detalle-restaurante.html</context>
+          <context context-type="linenumber">113,114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7922404467701065306" datatype="html">
+        <source>Sucursales</source>
+        <target>Sucursales</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/detalle-restaurante/detalle-restaurante.html</context>
+          <context context-type="linenumber">132,133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2638998326203335346" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-check-circle-fill&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Seleccionada </source>
+        <target>Seleccionada</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/detalle-restaurante/detalle-restaurante.html</context>
+          <context context-type="linenumber">141,142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4863862668920662665" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-people-fill text-primary&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Capacidad: <x id="INTERPOLATION" equiv-text="{{ sucursal.capacidad }}"/> personas </source>
+        <target>Capacidad</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/detalle-restaurante/detalle-restaurante.html</context>
+          <context context-type="linenumber">159,161</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7976033268821733717" datatype="html">
+        <source>Promociones</source>
+        <target>Promociones</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/detalle-restaurante/detalle-restaurante.html</context>
+          <context context-type="linenumber">201,202</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2441177355999625076" datatype="html">
+        <source>Restaurante no encontrado.</source>
+        <target>Restaurante no encontrado.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/detalle-restaurante/detalle-restaurante.html</context>
+          <context context-type="linenumber">214,215</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2173207350647937239" datatype="html">
+        <source>No disponible</source>
+        <target>No disponible</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/detalle-restaurante/detalle-restaurante.ts</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mis-reservas/mis-reservas.ts</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mis-reservas/mis-reservas.ts</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/restaurantes/restaurantes.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="372000693758229409" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-calendar-check&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Confirmar Reserva </source>
+        <target>Confirmar Reserva</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.html</context>
+          <context context-type="linenumber">7,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8376830740524331942" datatype="html">
+        <source>Resumen de la reserva</source>
+        <target>Resumen de la reserva</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2609677848876218406" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-exclamation-triangle&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Esta zona no permite menores </source>
+        <target>Esta zona no permite menores</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.html</context>
+          <context context-type="linenumber">34,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3892734246693892145" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-person&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Cantidad de adultos <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-danger&quot;&gt;"/>*<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target>Cantidad de adultos *</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1433950538067159480" datatype="html">
+        <source>Mínimo 1 adulto</source>
+        <target>Mínimo 1 adulto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.html</context>
+          <context context-type="linenumber">53,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8766150903167632185" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-person-heart&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Cantidad de menores </source>
+        <target>Cantidad de menores</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.html</context>
+          <context context-type="linenumber">58,59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8777583193709170399" datatype="html">
+        <source>Esta zona no permite menores</source>
+        <target>Esta zona no permite menores</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.html</context>
+          <context context-type="linenumber">70,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8238257777089149983" datatype="html">
+        <source>Máximo <x id="INTERPOLATION" equiv-text="{{ maxPersonas - cantAdultos }}"/> menores</source>
+        <target>Máximo  menores</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.html</context>
+          <context context-type="linenumber">72,73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6060080757060540228" datatype="html">
+        <source> Cancelar </source>
+        <target>Cancelar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6121140465240990592" datatype="html">
+        <source>Confirmando...</source>
+        <target>Confirmando...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.html</context>
+          <context context-type="linenumber">99,100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4974596472176294327" datatype="html">
+        <source>Confirmar Reserva</source>
+        <target>Confirmar Reserva</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.html</context>
+          <context context-type="linenumber">101,102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5080443957187125667" datatype="html">
+        <source>Debe haber al menos 1 adulto</source>
+        <target>Debe haber al menos 1 adulto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.ts</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5058923122027342206" datatype="html">
+        <source>La cantidad de menores no puede ser negativa</source>
+        <target>La cantidad de menores no puede ser negativa</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.ts</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7260311314565047398" datatype="html">
+        <source>La zona seleccionada no permite menores</source>
+        <target>La zona seleccionada no permite menores</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.ts</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8671696029877780442" datatype="html">
+        <source>No hay suficiente disponibilidad. Disponible: <x id="PH" equiv-text="this.horarioSeleccionado.disponibilidad"/>, Solicitado: <x id="PH_1" equiv-text="totalPersonas"/></source>
+        <target>No hay suficiente disponibilidad. Disponible: , Solicitado:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.ts</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6541655022459610213" datatype="html">
+        <source>Reserva confirmada exitosamente. Código:</source>
+        <target>Reserva confirmada exitosamente. Código:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.ts</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1761287890067756202" datatype="html">
+        <source>Error al confirmar la reserva</source>
+        <target>Error al confirmar la reserva</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.ts</context>
+          <context context-type="linenumber">131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7436565757724858351" datatype="html">
+        <source>Zona:</source>
+        <target>Zona: {INTERPOLATION}</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.ts</context>
+          <context context-type="linenumber">159</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2444499384194106860" datatype="html">
+        <source>Fecha:</source>
+        <target>Fecha:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.ts</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="777015405216407092" datatype="html">
+        <source>Horario:</source>
+        <target>Horario</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.ts</context>
+          <context context-type="linenumber">172</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9218122120478946661" datatype="html">
+        <source>Disponibilidad:</source>
+        <target>Disponibilidad:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.ts</context>
+          <context context-type="linenumber">179</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.ts</context>
+          <context context-type="linenumber">181</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8703231257002803536" datatype="html">
+        <source>lugar</source>
+        <target>lugar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.ts</context>
+          <context context-type="linenumber">179</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5083739019773685863" datatype="html">
+        <source>lugares</source>
+        <target>lugares</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.ts</context>
+          <context context-type="linenumber">181</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4046945256338004414" datatype="html">
+        <source>Total de personas:</source>
+        <target>Total de personas:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.ts</context>
+          <context context-type="linenumber">188</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.ts</context>
+          <context context-type="linenumber">190</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8519016993971379994" datatype="html">
+        <source>disponible</source>
+        <target>No hay restaurantes disponibles en este momento.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.ts</context>
+          <context context-type="linenumber">188</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9099131910428801799" datatype="html">
+        <source>disponibles</source>
+        <target>No hay restaurantes disponibles en este momento.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/formulario-reserva/formulario-reserva.ts</context>
+          <context context-type="linenumber">190</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5657091963023266979" datatype="html">
+        <source>Ristorino</source>
+        <target>Ristorino</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/header/header.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Home</source>
+        <target>Inicio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/header/header.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3241115855410558696" datatype="html">
+        <source>Restaurantes</source>
+        <target>Restaurantes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/header/header.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7148049435359098699" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-person-circle&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Mi Perfil </source>
+        <target>Mi Perfil</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/header/header.html</context>
+          <context context-type="linenumber">57,58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mis-reservas/mis-reservas.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7744445674750984119" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-calendar-check&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Mis Reservas </source>
+        <target>Mis Reservas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/header/header.html</context>
+          <context context-type="linenumber">62,63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4603769204344706415" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-box-arrow-right&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Cerrar Sesión </source>
+        <target>Cerrar Sesión</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/header/header.html</context>
+          <context context-type="linenumber">68,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3085918089863099904" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-box-arrow-in-right&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Iniciar Sesión </source>
+        <target>Iniciar Sesión</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/header/header.html</context>
+          <context context-type="linenumber">76,77</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.html</context>
+          <context context-type="linenumber">72,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6512199711570273310" datatype="html">
+        <source>Horarios Disponibles</source>
+        <target>Horario</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/horarios-disponibles/horarios-disponibles.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1878944583384618422" datatype="html">
+        <source>Cargando...</source>
+        <target>Cargando...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/horarios-disponibles/horarios-disponibles.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/preferencias-registro/preferencias-registro.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2917563364068917136" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-people&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Capacidad: <x id="INTERPOLATION" equiv-text="{{ zona.capacidadZona }}"/> </source>
+        <target>Capacidad: {INTERPOLATION} personas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/horarios-disponibles/horarios-disponibles.html</context>
+          <context context-type="linenumber">49,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4982427651094755412" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-check-circle&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Permite menores </source>
+        <target>Permite menores</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/horarios-disponibles/horarios-disponibles.html</context>
+          <context context-type="linenumber">53,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3458233552356534270" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-info-circle&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> No hay horarios disponibles para esta fecha. </source>
+        <target>No hay horarios disponibles para esta fecha.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/horarios-disponibles/horarios-disponibles.html</context>
+          <context context-type="linenumber">92,95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4157850060666607654" datatype="html">
+        <source>Error al cargar horarios disponibles</source>
+        <target>Error al cargar horarios disponibles</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/horarios-disponibles/horarios-disponibles.ts</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="horarios.disponible.1" datatype="html">
+        <source>1 disponible</source>
+        <target>1 disponible</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/horarios-disponibles/horarios-disponibles.ts</context>
+          <context context-type="linenumber">206</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="horarios.disponibles" datatype="html">
+        <source>disponibles</source>
+        <target>disponibles</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/horarios-disponibles/horarios-disponibles.ts</context>
+          <context context-type="linenumber">208</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2101454978820982846" datatype="html">
+        <source>1 reservado</source>
+        <target>1 reservado</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/horarios-disponibles/horarios-disponibles.ts</context>
+          <context context-type="linenumber">217</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7526608673298271381" datatype="html">
+        <source>reservados</source>
+        <target>reservados</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/horarios-disponibles/horarios-disponibles.ts</context>
+          <context context-type="linenumber">219</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5293067963304030880" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ promocion?.minPersonas }}"/> - <x id="INTERPOLATION_1" equiv-text="{{ promocion?.maxPersonas }}"/> personas</source>
+        <target>-  personas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/promocion/promocion.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="886886589867310962" datatype="html">
+        <source>Mínimo <x id="INTERPOLATION" equiv-text="{{ promocion?.minPersonas }}"/> personas</source>
+        <target>Mínimo  personas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/promocion/promocion.html</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8676502473464209424" datatype="html">
+        <source>Máximo <x id="INTERPOLATION" equiv-text="{{ promocion?.maxPersonas }}"/> personas</source>
+        <target>Máximo  personas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/promocion/promocion.html</context>
+          <context context-type="linenumber">47,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="163268878703589869" datatype="html">
+        <source>Ver Restaurante</source>
+        <target>Ver Restaurante</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/promocion/promocion.html</context>
+          <context context-type="linenumber">58,59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8040321786885509637" datatype="html">
+        <source>Válido hasta:</source>
+        <target>Válido hasta:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/promocion/promocion.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8024932591315166082" datatype="html">
+        <source>Iniciar Sesión</source>
+        <target>Iniciar Sesión</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3928627057593638232" datatype="html">
+        <source>Ingresa tus credenciales para acceder</source>
+        <target>Ingresa tus credenciales para acceder</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4401057011206112121" datatype="html">
+        <source>Correo electrónico</source>
+        <target>Correo electrónico</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">60,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3940679262023491064" datatype="html">
+        <source>tu@correo.com</source>
+        <target>tu@correo.com</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">67,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2554200166987065387" datatype="html">
+        <source>El correo es obligatorio</source>
+        <target>El correo es obligatorio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">73,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2679625057481756757" datatype="html">
+        <source>El formato del correo no es válido</source>
+        <target>El formato del correo no es válido</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.html</context>
+          <context context-type="linenumber">29,30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">75,76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7132730488496169673" datatype="html">
+        <source>Contraseña</source>
+        <target>Contraseña</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">123,124</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5114733433641546266" datatype="html">
+        <source>Tu contraseña</source>
+        <target>Tu contraseña</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6118062707121903803" datatype="html">
+        <source>La contraseña es obligatoria</source>
+        <target>La contraseña es obligatoria</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.html</context>
+          <context context-type="linenumber">58,59</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">145,146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8211373597011122895" datatype="html">
+        <source>La contraseña debe tener al menos 6 caracteres</source>
+        <target>La contraseña debe tener al menos 6 caracteres</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.html</context>
+          <context context-type="linenumber">60,61</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">147,148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7067473444911212003" datatype="html">
+        <source>¿No tienes una cuenta?</source>
+        <target>¿No tienes una cuenta?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.html</context>
+          <context context-type="linenumber">80,81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8838289760384596064" datatype="html">
+        <source>Regístrate aquí</source>
+        <target>Regístrate aquí</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.html</context>
+          <context context-type="linenumber">81,82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3156815681052903063" datatype="html">
+        <source>Bienvenido, <x id="PH" equiv-text="response.nombre"/> <x id="PH_1" equiv-text="response.apellido"/>!</source>
+        <target>Bienvenido,</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.ts</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6773075642225299208" datatype="html">
+        <source>Sesión iniciada</source>
+        <target>Sesión iniciada</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.ts</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5643140426608893283" datatype="html">
+        <source>Ocultar contraseña</source>
+        <target>Ocultar contraseña</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.ts</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.ts</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.ts</context>
+          <context context-type="linenumber">137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3178720462552134269" datatype="html">
+        <source>Mostrar contraseña</source>
+        <target>Mostrar contraseña</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/login/login.ts</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.ts</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.ts</context>
+          <context context-type="linenumber">137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5901803137426162802" datatype="html">
+        <source>Mi Perfil</source>
+        <target>Mi Perfil</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mi-perfil/mi-perfil.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="mi-perfil.cliente.numero" datatype="html">
+        <source>Cliente #</source>
+        <target>Cliente #</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mi-perfil/mi-perfil.ts</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="224549199614624623" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-calendar-check me-1&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Ver mis reservas </source>
+        <target>Ver mis reservas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mi-perfil/mi-perfil.html</context>
+          <context context-type="linenumber">37,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1334219335017440739" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-heart-fill text-danger me-2&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Mis Preferencias Gastronómicas </source>
+        <target>Mis Preferencias Gastronómicas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mi-perfil/mi-perfil.html</context>
+          <context context-type="linenumber">54,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3175104072938456917" datatype="html">
+        <source>Cargando preferencias...</source>
+        <target>Cargando preferencias...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mi-perfil/mi-perfil.html</context>
+          <context context-type="linenumber">62,63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9190413753812124221" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-info-circle me-2&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> No has configurado preferencias gastronómicas aún. <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/preferencias-registro&quot; class=&quot;alert-link ms-2&quot;&gt;"/> Configurar preferencias <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>preferencia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mi-perfil/mi-perfil.html</context>
+          <context context-type="linenumber">67,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6378221769455474622" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-pencil me-1&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Editar preferencias </source>
+        <target>Editar preferencias</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mi-perfil/mi-perfil.html</context>
+          <context context-type="linenumber">93,95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3715871949679059190" datatype="html">
+        <source>Mis Reservas</source>
+        <target>Mis Reservas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mis-reservas/mis-reservas.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8270556668309419894" datatype="html">
+        <source>Filtrar por estado</source>
+        <target>Filtrar por estado</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mis-reservas/mis-reservas.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7735023459199379208" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-list-ul me-1&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Todas </source>
+        <target>Todas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mis-reservas/mis-reservas.html</context>
+          <context context-type="linenumber">21,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1063190458621762988" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-check-circle me-1&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Confirmada </source>
+        <target>Confirmada</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mis-reservas/mis-reservas.html</context>
+          <context context-type="linenumber">28,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4290257974748085386" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-x-circle me-1&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Cancelada </source>
+        <target>Cancelada</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mis-reservas/mis-reservas.html</context>
+          <context context-type="linenumber">35,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3356772725090980706" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-clock-history me-1&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Pendiente </source>
+        <target>Pendiente</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mis-reservas/mis-reservas.html</context>
+          <context context-type="linenumber">42,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4933142977559541887" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-check2-all me-1&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Finalizada </source>
+        <target>Finalizada</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mis-reservas/mis-reservas.html</context>
+          <context context-type="linenumber">49,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7034783718325260539" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-info-circle&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="START_BLOCK_IF" equiv-text="@if (filtroActivo) {"/> No tienes reservas con estado &quot;<x id="INTERPOLATION" equiv-text="{{ filtroActivo }}"/>&quot;. <x id="CLOSE_BLOCK_IF" equiv-text="}"/><x id="START_BLOCK_ELSE" equiv-text="@else {"/> No tienes reservas registradas. <x id="CLOSE_BLOCK_ELSE" equiv-text="}"/></source>
+        <target>No tienes reservas registradas.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mis-reservas/mis-reservas.html</context>
+          <context context-type="linenumber">58,65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2565625832206816788" datatype="html">
+        <source>Reserva #<x id="INTERPOLATION" equiv-text="{{ reserva.id.substring(0, 8) }}"/></source>
+        <target>Reserva #{INTERPOLATION}</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mis-reservas/mis-reservas.html</context>
+          <context context-type="linenumber">84,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5209527611723423856" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-geo-alt&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Zona: <x id="INTERPOLATION" equiv-text="{{ reserva.nombre_zona }}"/> </source>
+        <target>Zona: {INTERPOLATION}</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mis-reservas/mis-reservas.html</context>
+          <context context-type="linenumber">100,101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1475104061241693994" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-clock-history&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Esta reserva ya pasó </source>
+        <target>Esta reserva ya pasó</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mis-reservas/mis-reservas.html</context>
+          <context context-type="linenumber">132,133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="codigo_reserva_mis_reservas" datatype="html">
+        <source>Código:</source>
+        <target>Código:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mis-reservas/mis-reservas.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4156337392876515105" datatype="html">
+        <source>Hoy</source>
+        <target>Hoy</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mis-reservas/mis-reservas.ts</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mis-reservas/mis-reservas.ts</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mis-reservas/mis-reservas.ts</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="466379872803677668" datatype="html">
+        <source>1 persona</source>
+        <target>1 persona</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mis-reservas/mis-reservas.ts</context>
+          <context context-type="linenumber">223</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2436307110248153575" datatype="html">
+        <source>personas</source>
+        <target>Capacidad: {INTERPOLATION} personas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/mis-reservas/mis-reservas.ts</context>
+          <context context-type="linenumber">225</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="601950061840936090" datatype="html">
+        <source>Preferencias Gastronómicas</source>
+        <target>Preferencias Gastronómicas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/preferencias-registro/preferencias-registro.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7096307321778674183" datatype="html">
+        <source>Selecciona tus preferencias para personalizar tu experiencia</source>
+        <target>Selecciona tus preferencias para personalizar tu experiencia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/preferencias-registro/preferencias-registro.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8854626626909909716" datatype="html">
+        <source>Puedes seleccionar múltiples opciones en cada categoría</source>
+        <target>Puedes seleccionar múltiples opciones en cada categoría</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/preferencias-registro/preferencias-registro.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7982248861231662343" datatype="html">
+        <source> No se pudieron cargar las categorías de preferencias. </source>
+        <target>No se pudieron cargar las categorías de preferencias.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/preferencias-registro/preferencias-registro.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2932021371095509275" datatype="html">
+        <source>Total seleccionado:</source>
+        <target>Total seleccionado:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/preferencias-registro/preferencias-registro.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5519435271876114587" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-skip-forward me-2&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Omitir este paso </source>
+        <target>Omitir este paso</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/preferencias-registro/preferencias-registro.html</context>
+          <context context-type="linenumber">69,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8903996983865935594" datatype="html">
+        <source><x id="START_BLOCK_IF" equiv-text="@if (cargando) {"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;spinner-border spinner-border-sm me-2&quot; role=&quot;status&quot; aria-hidden=&quot;true&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="CLOSE_BLOCK_IF" equiv-text="}"/><x id="START_BLOCK_ELSE" equiv-text="@else {"/><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-check-circle me-2&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/><x id="CLOSE_BLOCK_ELSE" equiv-text="}"/> Guardar y continuar </source>
+        <target>Guardar y continuar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/preferencias-registro/preferencias-registro.html</context>
+          <context context-type="linenumber">78,84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8791441684699918526" datatype="html">
+        <source>preferencia</source>
+        <target>preferencia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/preferencias-registro/preferencias-registro.ts</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1994712740645243734" datatype="html">
+        <source>preferencias</source>
+        <target>preferencias</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/preferencias-registro/preferencias-registro.ts</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7457119558620596403" datatype="html">
+        <source>No se seleccionaron preferencias. Puedes continuar.</source>
+        <target>No se seleccionaron preferencias. Puedes continuar.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/preferencias-registro/preferencias-registro.ts</context>
+          <context context-type="linenumber">150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5166827722286287186" datatype="html">
+        <source>Sin preferencias</source>
+        <target>Sin preferencias</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/preferencias-registro/preferencias-registro.ts</context>
+          <context context-type="linenumber">151</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2811752961371624137" datatype="html">
+        <source>Tus preferencias gastronómicas han sido guardadas exitosamente.</source>
+        <target>Tus preferencias gastronómicas han sido guardadas exitosamente.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/preferencias-registro/preferencias-registro.ts</context>
+          <context context-type="linenumber">161</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8253475360221692409" datatype="html">
+        <source>Preferencias guardadas</source>
+        <target>Preferencias guardadas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/preferencias-registro/preferencias-registro.ts</context>
+          <context context-type="linenumber">162</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="404948634376881934" datatype="html">
+        <source>Promociones Especiales</source>
+        <target>Promociones Especiales</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/promociones/promociones.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4363266996791583700" datatype="html">
+        <source>Descubre las mejores ofertas y descuentos en nuestros restaurantes</source>
+        <target>Descubre las mejores ofertas y descuentos en nuestros restaurantes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/promociones/promociones.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2844481483123278364" datatype="html">
+        <source>No hay promociones activas en este momento</source>
+        <target>No hay promociones activas en este momento</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/promociones/promociones.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6567649435748356439" datatype="html">
+        <source>Vuelve pronto para descubrir nuevas ofertas especiales</source>
+        <target>Vuelve pronto para descubrir nuevas ofertas especiales</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/promociones/promociones.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="452830638458584000" datatype="html">
+        <source>Anterior</source>
+        <target>Anterior</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/promociones/promociones.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3237447972400589452" datatype="html">
+        <source>Siguiente</source>
+        <target>Siguiente</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/promociones/promociones.html</context>
+          <context context-type="linenumber">45,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7339185575145442118" datatype="html">
+        <source>Slide <x id="PH" equiv-text="index"/></source>
+        <target>Slide</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/promociones/promociones.ts</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7875220663406358589" datatype="html">
+        <source>Crear Cuenta</source>
+        <target>Crear Cuenta</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5195814425193525043" datatype="html">
+        <source>Completa el formulario para registrarte</source>
+        <target>Completa el formulario para registrarte</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5357661269973482487" datatype="html">
+        <source>Nombre</source>
+        <target>Nombre</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1946313421164554768" datatype="html">
+        <source>Tu nombre</source>
+        <target>Tu nombre</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2014443633083909637" datatype="html">
+        <source>El nombre es obligatorio</source>
+        <target>El nombre es obligatorio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7491978053820794564" datatype="html">
+        <source>El nombre no puede exceder 120 caracteres</source>
+        <target>El nombre no puede exceder 120 caracteres</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6121280062403357056" datatype="html">
+        <source>Apellido</source>
+        <target>Apellido</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">37,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4019830354867079944" datatype="html">
+        <source>Tu apellido</source>
+        <target>Tu apellido</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2524475838224863512" datatype="html">
+        <source>El apellido es obligatorio</source>
+        <target>El apellido es obligatorio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">50,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1691579805642764433" datatype="html">
+        <source>El apellido no puede exceder 120 caracteres</source>
+        <target>El apellido no puede exceder 120 caracteres</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">52,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3900852913265926369" datatype="html">
+        <source>El correo no puede exceder 150 caracteres</source>
+        <target>El correo no puede exceder 150 caracteres</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">77,78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5182883468714953711" datatype="html">
+        <source>Teléfono <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-muted small&quot;&gt;"/>(opcional)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target>Teléfono</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">84,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7269925571554462114" datatype="html">
+        <source>351-123-4567</source>
+        <target>351-123-4567</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">91,92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3606214490984364400" datatype="html">
+        <source>El teléfono no puede exceder 120 caracteres</source>
+        <target>El teléfono no puede exceder 120 caracteres</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">96,97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5531631945901427487" datatype="html">
+        <source>Localidad</source>
+        <target>Localidad</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">102,103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4846954208580808608" datatype="html">
+        <source>Selecciona una localidad</source>
+        <target>Selecciona una localidad</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">108,109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2194356211634935768" datatype="html">
+        <source>La localidad es obligatoria</source>
+        <target>La localidad es obligatoria</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">117,118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="12913686162822139" datatype="html">
+        <source>Mínimo 6 caracteres</source>
+        <target>Mínimo 6 caracteres</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">131,132</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9211042530721009080" datatype="html">
+        <source>La contraseña no puede exceder 100 caracteres</source>
+        <target>La contraseña no puede exceder 100 caracteres</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">149,150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3780907903055773112" datatype="html">
+        <source>Confirmar Contraseña</source>
+        <target>Confirmar Contraseña</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">156,157</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3602583205155590634" datatype="html">
+        <source>Repite tu contraseña</source>
+        <target>Repite tu contraseña</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">164,165</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7403156653184811376" datatype="html">
+        <source>Debes confirmar tu contraseña</source>
+        <target>Debes confirmar tu contraseña</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">178,179</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="728039864504584525" datatype="html">
+        <source>Las contraseñas no coinciden</source>
+        <target>Las contraseñas no coinciden</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">180,181</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9202877856819733633" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-person-plus me-2&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Registrarse </source>
+        <target>Registrarse</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">192,194</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3986889358093539613" datatype="html">
+        <source> ¿Ya tienes una cuenta? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a routerLink=&quot;/login&quot; class=&quot;text-decoration-none&quot;&gt;"/>Inicia sesión aquí<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>¿Ya tienes una cuenta? Inicia sesión aquí</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.html</context>
+          <context context-type="linenumber">200,202</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1878293565806525478" datatype="html">
+        <source>¡Bienvenido, <x id="PH" equiv-text="response.nombre"/> <x id="PH_1" equiv-text="response.apellido"/>! Tu cuenta ha sido creada exitosamente.</source>
+        <target>Bienvenido,</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.ts</context>
+          <context context-type="linenumber">101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8728773913329875215" datatype="html">
+        <source>Registro exitoso</source>
+        <target>Registro exitoso</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/register/register.ts</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8619332119681943179" datatype="html">
+        <source>Nuestros Restaurantes</source>
+        <target>Nuestros Restaurantes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/restaurantes/restaurantes.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="821630191661284582" datatype="html">
+        <source>No hay restaurantes disponibles en este momento.</source>
+        <target>No hay restaurantes disponibles en este momento.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/restaurantes/restaurantes.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="821060978568348898" datatype="html">
+        <source>Capacidad: <x id="INTERPOLATION" equiv-text="{{ restaurante.capacidad }}"/> personas</source>
+        <target>Capacidad</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/restaurantes/restaurantes.html</context>
+          <context context-type="linenumber">88,89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3687407110162199401" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-eye&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Ver Detalles </source>
+        <target>Ver Detalles</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/restaurantes/restaurantes.html</context>
+          <context context-type="linenumber">97,98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4815444424480731940" datatype="html">
+        <source> Resultados para: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-primary fst-italic&quot;&gt;"/>&quot;<x id="INTERPOLATION" equiv-text="{{ consulta }}"/>&quot;<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target>Resultados para: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-primary fst-italic&quot;&gt;"/>&quot;<x id="INTERPOLATION" equiv-text="{{ consulta }}"/>&quot;<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/buscar/buscar.html</context>
+          <context context-type="linenumber">8,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="618586802430847633" datatype="html">
+        <source> Encontrados <x id="INTERPOLATION" equiv-text="{{ resultadosExactos.length }}"/> restaurante<x id="INTERPOLATION_1" equiv-text="{{ resultadosExactos.length !== 1 ? &apos;s&apos; : &apos;&apos; }}"/> </source>
+        <target>Encontrados <x id="INTERPOLATION" equiv-text="{{ resultadosExactos.length }}"/> restaurante<x id="INTERPOLATION_1" equiv-text="{{ resultadosExactos.length !== 1 ? &apos;s&apos; : &apos;&apos; }}"/> </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/buscar/buscar.html</context>
+          <context context-type="linenumber">13,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2594621805714625807" datatype="html">
+        <source>No se encontraron restaurantes exactos</source>
+        <target>No se encontraron restaurantes exactos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/buscar/buscar.html</context>
+          <context context-type="linenumber">55,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7577158616858801642" datatype="html">
+        <source> No encontramos restaurantes que coincidan exactamente con tu búsqueda. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Pero tenemos algunas sugerencias que te pueden gustar. </source>
+        <target>No encontramos restaurantes que coincidan exactamente con tu búsqueda. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Pero tenemos algunas sugerencias que te pueden gustar.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/buscar/buscar.html</context>
+          <context context-type="linenumber">57,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6166882044079791055" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-check-circle-fill text-success me-2&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Resultados de tu búsqueda </source>
+        <target>Resultados de tu búsqueda</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/buscar/buscar.html</context>
+          <context context-type="linenumber">71,73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7825453829007531699" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;bi bi-heart-fill text-danger me-2&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> Te puede gustar también </source>
+        <target>Te puede gustar también</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/buscar/buscar.html</context>
+          <context context-type="linenumber">130,132</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,50 @@
+# --- Java / Maven ---
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# --- Node / Angular ---
+**/node_modules/
+**/dist/
+**/.angular/cache/
+# Lock/log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Logs & PIDs ---
+logs/
+*.log
+*.pid
+
+# --- Environment / Secrets ---
+.env
+.env.*
+*.env
+*.env.*
+# Local overrides
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# --- IDE / OS files ---
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.DS_Store
+Thumbs.db
+
+# --- Coverage / Test outputs ---
+coverage/
+.nyc_output/
+
+# --- Misc ---
+.tmp/
+*.swp
+*.swo

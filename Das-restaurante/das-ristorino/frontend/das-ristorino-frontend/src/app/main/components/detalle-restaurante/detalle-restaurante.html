@@ -1,0 +1,249 @@
+@if(restaurante) {
+<div class="detalle-restaurante-container">
+    <!-- Hero Section con Imagen -->
+    <div class="hero-section">
+        <img [src]="obtenerImagenPrincipal()"
+             class="hero-image"
+             [alt]="restaurante.nombre" />
+        <div class="hero-overlay">
+            <div class="container">
+                <h1 class="hero-title">{{ restaurante.nombre }}</h1>
+                @if (restaurante.calificacion) {
+                    <div class="hero-rating">
+                        @for (star of [1,2,3,4,5]; track star) {
+                            <i class="bi"
+                               [ngClass]="star <= restaurante.calificacion! ? 'bi-star-fill text-warning' : 'bi-star text-muted'">
+                            </i>
+                        }
+                        <span class="ms-2 rating-value">({{ restaurante.calificacion.toFixed(1) }})</span>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <!-- Información Principal -->
+        <div class="row mb-5">
+            <div class="col-lg-8">
+                <div class="info-section">
+                    <div class="info-grid mb-4">
+                        <div class="info-item">
+                            <i class="bi bi-geo-alt-fill text-primary"></i>
+                            <div>
+                                <strong i18n>Dirección</strong>
+                                <p class="mb-0">{{ restaurante.direccion }}</p>
+                            </div>
+                        </div>
+
+                        @if (restaurante.telefono) {
+                            <div class="info-item">
+                                <i class="bi bi-telephone-fill text-primary"></i>
+                                <div>
+                                    <strong i18n>Teléfono</strong>
+                                    <p class="mb-0">{{ restaurante.telefono }}</p>
+                                </div>
+                            </div>
+                        }
+
+                        @if (restaurante.email) {
+                            <div class="info-item">
+                                <i class="bi bi-envelope-fill text-primary"></i>
+                                <div>
+                                    <strong i18n>Email</strong>
+                                    <p class="mb-0">{{ restaurante.email }}</p>
+                                </div>
+                            </div>
+                        }
+
+                        <div class="info-item">
+                            <i class="bi bi-clock-fill text-primary"></i>
+                            <div>
+                                <strong i18n>Horario</strong>
+                                <p class="mb-0">
+                                    {{ formatearHorario(restaurante.horarioApertura) }} - {{ formatearHorario(restaurante.horarioCierre) }}
+                                </p>
+                            </div>
+                        </div>
+
+                        @if (restaurante.diasAtencion) {
+                            <div class="info-item">
+                                <i class="bi bi-calendar-week text-primary"></i>
+                                <div>
+                                    <strong i18n>Días de atención</strong>
+                                    <p class="mb-0">{{ restaurante.diasAtencion }}</p>
+                                </div>
+                            </div>
+                        }
+
+                        <div class="info-item">
+                            <i class="bi bi-people-fill text-primary"></i>
+                            <div>
+                                <strong i18n>Capacidad</strong>
+                                <p class="mb-0" i18n>{{ restaurante.capacidad }} personas</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    @if (restaurante.tipoCocina && restaurante.tipoCocina.length > 0) {
+                        <div class="mb-4">
+                            <h3 class="section-title" i18n>Tipo de cocina</h3>
+                            <div class="tags-container">
+                                @for (tipo of restaurante.tipoCocina; track tipo) {
+                                    <span class="badge bg-secondary me-2 mb-2">{{ tipo }}</span>
+                                }
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="sidebar-card">
+                    <h4 class="mb-3" i18n>Información</h4>
+
+                    @if (restaurante.activo) {
+                        <span class="badge bg-success mb-3 d-block" i18n>Activo</span>
+                    } @else {
+                        <span class="badge bg-secondary mb-3 d-block" i18n>Inactivo</span>
+                    }
+
+                    @if (restaurante.calificacion) {
+                        <div class="mb-3">
+                            <strong i18n>Calificación</strong>
+                            <div class="mt-2">
+                                @for (star of [1,2,3,4,5]; track star) {
+                                    <i class="bi fs-5"
+                                       [ngClass]="star <= restaurante.calificacion! ? 'bi-star-fill text-warning' : 'bi-star text-muted'">
+                                    </i>
+                                }
+                                <span class="ms-2">{{ restaurante.calificacion.toFixed(1) }}</span>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <!-- Sucursales -->
+        @if (restaurante.sucursales && restaurante.sucursales.length > 0) {
+            <div class="section-divider"></div>
+            <div class="mb-5">
+                <h2 class="section-title mb-4" i18n>Sucursales</h2>
+                <div class="row g-4">
+                    @for (sucursal of restaurante.sucursales; track sucursal.nroSucursal) {
+                        <div class="col-md-6">
+                            <div class="sucursal-card"
+                                 [class.selected]="esSucursalSeleccionada(sucursal)"
+                                 (click)="seleccionarSucursal(sucursal)">
+                                @if (esSucursalSeleccionada(sucursal)) {
+                                    <div class="selected-badge" i18n>
+                                        <i class="bi bi-check-circle-fill"></i> Seleccionada
+                                    </div>
+                                }
+                                <h5 class="mb-3">{{ sucursal.nombre }}</h5>
+                                <div class="sucursal-info">
+                                    <p class="mb-2">
+                                        <i class="bi bi-geo-alt-fill text-primary"></i>
+                                        {{ sucursal.direccion }}
+                                    </p>
+                                    <p class="mb-2">
+                                        <i class="bi bi-building text-primary"></i>
+                                        {{ sucursal.localidad }}, {{ sucursal.provincia }}
+                                    </p>
+                                    <p class="mb-2">
+                                        <i class="bi bi-telephone-fill text-primary"></i>
+                                        {{ sucursal.telefonos }}
+                                    </p>
+                                    <p class="mb-2" i18n>
+                                        <i class="bi bi-people-fill text-primary"></i>
+                                        Capacidad: {{ sucursal.capacidad }} personas
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <!-- Reseñas -->
+            <div class="section-divider"></div>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 class="section-title mb-0" i18n>Reseñas</h2>
+                @if (sucursalSeleccionada) {
+                    <button class="btn btn-primary" (click)="abrirModalResena()" i18n>
+                        <i class="bi bi-plus-lg me-1"></i> Agregar reseña
+                    </button>
+                }
+            </div>
+            <app-resena
+                #resenaComponent
+                [nroRestaurante]="nroRestaurante"
+                [nroSucursal]="sucursalSeleccionada?.nroSucursal"
+                ></app-resena>
+
+            <!-- Modal de reseña -->
+            @if (sucursalSeleccionada) {
+                <app-formulario-resena
+                    [visible]="mostrarModalResena"
+                    [nroRestaurante]="nroRestaurante"
+                    [nroSucursal]="sucursalSeleccionada.nroSucursal"
+                    (visibleChange)="cerrarModalResena()"
+                    (resenaEnviada)="onResenaEnviada()">
+                </app-formulario-resena>
+            }
+
+            <!-- Horarios Disponibles -->
+            @if (sucursalSeleccionada && nroRestaurante) {
+                <div class="section-divider"></div>
+                <div class="mb-5">
+                    <horarios-disponibles
+                        #horariosComponent
+                        [nroRestaurante]="nroRestaurante"
+                        [nroSucursal]="sucursalSeleccionada.nroSucursal"
+                        [nombreSucursal]="sucursalSeleccionada.nombre"
+                        [fechaSeleccionada]="fechaSeleccionada"
+                        (horarioSeleccionado)="onHorarioSeleccionado($event)">
+                    </horarios-disponibles>
+                </div>
+            }
+
+            <!-- Formulario de Reserva -->
+            @if (horarioSeleccionado && sucursalSeleccionada) {
+                <app-formulario-reserva
+                    [horarioSeleccionado]="horarioSeleccionado"
+                    [nroRestaurante]="nroRestaurante"
+                    [nroSucursal]="sucursalSeleccionada.nroSucursal"
+                    [visible]="mostrarFormularioReserva"
+                    (visibleChange)="onModalVisibleChange($event)"
+                    (reservaConfirmada)="onReservaConfirmada()"
+                    (actualizarHorariosDisponibles)="onActualizarHorariosDisponibles($event)"
+                    [especialidadesAlimentarias]="especialidadesAlimentarias"
+                >    
+                </app-formulario-reserva>
+            }
+        }
+
+        <!-- Promociones -->
+        @if (restaurante.promociones && restaurante.promociones.length > 0) {
+            <div class="section-divider"></div>
+            <div class="mb-5">
+                <h2 class="section-title mb-4" i18n>Promociones</h2>
+                @for (promocion of restaurante.promociones; track promocion.id) {
+                <app-promocion [promocion]="promocion"></app-promocion>
+                }
+            </div>
+
+        }
+
+    </div>
+</div>
+} @else {
+<div class="container py-5">
+    <div class="alert alert-warning text-center" role="alert">
+        <i class="bi bi-exclamation-triangle"></i> <span i18n>Restaurante no encontrado.</span>
+    </div>
+</div>
+
+
+}

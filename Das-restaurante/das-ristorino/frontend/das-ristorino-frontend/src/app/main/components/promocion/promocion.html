@@ -1,0 +1,69 @@
+<div class="card promocion-card h-100 shadow-sm">
+  @if (promocion?.imagenUrl) {
+    <img [src]="promocion?.imagenUrl" class="card-img-top promocion-image" alt="{{ promocion?.titulo }}" />
+  } @else {
+    <div class="card-img-top promocion-image-placeholder">
+      <i class="bi bi-image"></i>
+    </div>
+  }
+  
+  <div class="card-body d-flex flex-column">
+    <div class="mb-2">
+      @if (promocion?.descuentoPorcentaje) {
+        <span class="badge bg-danger fs-6 mb-2">
+          <i class="bi bi-percent"></i> {{ promocion?.descuentoPorcentaje }}% OFF
+        </span>
+      }
+      @if (promocion?.descuentoFijo) {
+        <span class="badge bg-success fs-6 mb-2">
+          <i class="bi bi-currency-dollar"></i> ${{ promocion?.descuentoFijo }} OFF
+        </span>
+      }
+    </div>
+
+    <h5 class="card-title fw-bold mb-3">{{ promocion?.titulo }}</h5>
+    
+    <p class="card-text text-muted flex-grow-1 mb-3">
+      {{ promocion?.descripcion }}
+    </p>
+
+    <div class="promocion-info mb-3">
+      @if (promocion?.fechaFin) {
+        <div class="info-item mb-2">
+          <i class="bi bi-calendar-check text-primary"></i>
+          <span class="small ms-2">{{ textoValidoHasta }}</span>
+        </div>
+      }
+      
+      @if (promocion?.minPersonas || promocion?.maxPersonas) {
+        <div class="info-item">
+          <i class="bi bi-people-fill text-primary"></i>
+          <span class="small ms-2">
+            @if (promocion?.minPersonas && promocion?.maxPersonas) {
+              <span i18n>{{ promocion?.minPersonas }} - {{ promocion?.maxPersonas }} personas</span>
+            } @else if (promocion?.minPersonas) {
+              <span i18n>Mínimo {{ promocion?.minPersonas }} personas</span>
+            } @else if (promocion?.maxPersonas) {
+              <span i18n>Máximo {{ promocion?.maxPersonas }} personas</span>
+            }
+          </span>
+        </div>
+      }
+      @if (promocion?.propositoCorto) {
+        <div class="info-item mt-2">
+          <span class="badge" [ngClass]="obtenerClaseBadgeProposito(promocion?.propositoCorto)">
+            {{ promocion?.propositoCorto }}
+          </span>
+        </div>
+      }
+
+    </div>
+
+    <button 
+      class="btn btn-primary w-100 mt-auto" 
+      (click)="registrarClickPromocion()">
+      <i class="bi bi-arrow-right-circle me-2"></i>
+      <span i18n>Ver Restaurante</span>
+    </button>
+  </div>
+</div>

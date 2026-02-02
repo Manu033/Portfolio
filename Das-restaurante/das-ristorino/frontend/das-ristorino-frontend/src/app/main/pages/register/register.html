@@ -1,0 +1,209 @@
+<div class="register-container">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 col-lg-6">
+        <div class="card register-card shadow">
+          <div class="card-body p-4">
+            <div class="text-center mb-4">
+              <h2 class="card-title mb-2" i18n>Crear Cuenta</h2>
+              <p class="text-muted" i18n>Completa el formulario para registrarte</p>
+            </div>
+
+            <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="nombre" class="form-label" i18n>Nombre</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    [class.is-invalid]="nombre?.invalid && nombre?.touched"
+                    id="nombre"
+                    formControlName="nombre"
+                    placeholder="Tu nombre"
+                    i18n-placeholder
+                    autocomplete="given-name">
+                  @if (nombre?.invalid && nombre?.touched) {
+                    <div class="invalid-feedback">
+                      @if (nombre?.errors?.['required']) {
+                        <span i18n>El nombre es obligatorio</span>
+                      } @else if (nombre?.errors?.['maxlength']) {
+                        <span i18n>El nombre no puede exceder 120 caracteres</span>
+                      }
+                    </div>
+                  }
+                </div>
+
+                <div class="col-md-6 mb-3">
+                  <label for="apellido" class="form-label" i18n>Apellido</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    [class.is-invalid]="apellido?.invalid && apellido?.touched"
+                    id="apellido"
+                    formControlName="apellido"
+                    placeholder="Tu apellido"
+                    i18n-placeholder
+                    autocomplete="family-name">
+                  @if (apellido?.invalid && apellido?.touched) {
+                    <div class="invalid-feedback">
+                      @if (apellido?.errors?.['required']) {
+                        <span i18n>El apellido es obligatorio</span>
+                      } @else if (apellido?.errors?.['maxlength']) {
+                        <span i18n>El apellido no puede exceder 120 caracteres</span>
+                      }
+                    </div>
+                  }
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="correo" class="form-label" i18n>Correo electrónico</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  [class.is-invalid]="correo?.invalid && correo?.touched"
+                  id="correo"
+                  formControlName="correo"
+                  placeholder="tu@correo.com"
+                  i18n-placeholder
+                  autocomplete="email">
+                @if (correo?.invalid && correo?.touched) {
+                  <div class="invalid-feedback">
+                    @if (correo?.errors?.['required']) {
+                      <span i18n>El correo es obligatorio</span>
+                    } @else if (correo?.errors?.['email']) {
+                      <span i18n>El formato del correo no es válido</span>
+                    } @else if (correo?.errors?.['maxlength']) {
+                      <span i18n>El correo no puede exceder 150 caracteres</span>
+                    }
+                  </div>
+                }
+              </div>
+
+              <div class="mb-3">
+                <label for="telefonos" class="form-label" i18n>Teléfono <span class="text-muted small">(opcional)</span></label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  [class.is-invalid]="telefonos?.invalid && telefonos?.touched"
+                  id="telefonos"
+                  formControlName="telefonos"
+                  placeholder="351-123-4567"
+                  i18n-placeholder
+                  autocomplete="tel">
+                @if (telefonos?.invalid && telefonos?.touched) {
+                  <div class="invalid-feedback">
+                    <span i18n>El teléfono no puede exceder 120 caracteres</span>
+                  </div>
+                }
+              </div>
+
+              <div class="mb-3">
+                <label for="nroLocalidad" class="form-label" i18n>Localidad</label>
+                <select
+                  class="form-select"
+                  [class.is-invalid]="nroLocalidad?.invalid && nroLocalidad?.touched"
+                  id="nroLocalidad"
+                  formControlName="nroLocalidad">
+                  <option value="" i18n>Selecciona una localidad</option>
+                  @for (localidad of localidades; track localidad.nroLocalidad) {
+                    <option [value]="localidad.nroLocalidad">
+                      {{ localidad.nombre }} - {{ localidad.provincia }}
+                    </option>
+                  }
+                </select>
+                @if (nroLocalidad?.invalid && nroLocalidad?.touched) {
+                  <div class="invalid-feedback">
+                    <span i18n>La localidad es obligatoria</span>
+                  </div>
+                }
+              </div>
+
+              <div class="mb-3">
+                <label for="password" class="form-label" i18n>Contraseña</label>
+                <div class="input-group">
+                  <input
+                    [type]="mostrarPassword ? 'text' : 'password'"
+                    class="form-control"
+                    [class.is-invalid]="password?.invalid && password?.touched"
+                    id="password"
+                    formControlName="password"
+                    placeholder="Mínimo 6 caracteres"
+                    i18n-placeholder
+                    autocomplete="new-password">
+                  <button
+                    class="btn btn-outline-secondary"
+                    type="button"
+                    (click)="toggleMostrarPassword()"
+                    [attr.aria-label]="getAriaLabelPassword()">
+                    <i class="bi" [ngClass]="mostrarPassword ? 'bi-eye-slash' : 'bi-eye'"></i>
+                  </button>
+                </div>
+                @if (password?.invalid && password?.touched) {
+                  <div class="invalid-feedback">
+                    @if (password?.errors?.['required']) {
+                      <span i18n>La contraseña es obligatoria</span>
+                    } @else if (password?.errors?.['minlength']) {
+                      <span i18n>La contraseña debe tener al menos 6 caracteres</span>
+                    } @else if (password?.errors?.['maxlength']) {
+                      <span i18n>La contraseña no puede exceder 100 caracteres</span>
+                    }
+                  </div>
+                }
+              </div>
+
+              <div class="mb-3">
+                <label for="confirmPassword" class="form-label" i18n>Confirmar Contraseña</label>
+                <div class="input-group">
+                  <input
+                    [type]="mostrarConfirmPassword ? 'text' : 'password'"
+                    class="form-control"
+                    [class.is-invalid]="confirmPassword?.invalid && confirmPassword?.touched"
+                    id="confirmPassword"
+                    formControlName="confirmPassword"
+                    placeholder="Repite tu contraseña"
+                    i18n-placeholder
+                    autocomplete="new-password">
+                  <button
+                    class="btn btn-outline-secondary"
+                    type="button"
+                    (click)="toggleMostrarConfirmPassword()"
+                    [attr.aria-label]="getAriaLabelConfirmPassword()">
+                    <i class="bi" [ngClass]="mostrarConfirmPassword ? 'bi-eye-slash' : 'bi-eye'"></i>
+                  </button>
+                </div>
+                @if (confirmPassword?.invalid && confirmPassword?.touched) {
+                  <div class="invalid-feedback">
+                    @if (confirmPassword?.errors?.['required']) {
+                      <span i18n>Debes confirmar tu contraseña</span>
+                    } @else if (confirmPassword?.errors?.['passwordMismatch']) {
+                      <span i18n>Las contraseñas no coinciden</span>
+                    }
+                  </div>
+                }
+              </div>
+
+              <div class="d-grid mb-3">
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-lg"
+                  [disabled]="registerForm.invalid"
+                  i18n>
+                  <i class="bi bi-person-plus me-2"></i>
+                  Registrarse
+                </button>
+              </div>
+            </form>
+
+            <div class="text-center">
+              <p class="text-muted small mb-0" i18n>
+                ¿Ya tienes una cuenta?
+                <a routerLink="/login" class="text-decoration-none">Inicia sesión aquí</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
