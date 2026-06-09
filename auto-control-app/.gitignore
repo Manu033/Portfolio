@@ -1,0 +1,9 @@
+node_modules/
+.env
+dist/
+.DS_Store
+*.log
+backend/uploads/cars/*
+backend/uploads/maintenances/*
+!backend/uploads/cars/.gitkeep
+!backend/uploads/maintenances/.gitkeep

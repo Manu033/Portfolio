@@ -1,0 +1,104 @@
+// This is your Prisma schema file
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(uuid())
+  name      String
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  cars Car[]
+
+  @@map("users")
+}
+
+model Car {
+  id           String        @id @default(uuid())
+  userId       String
+  brand        String
+  model        String
+  year         Int
+  licensePlate String        @unique
+  photoUrl     String?
+  notes        String?
+  createdAt    DateTime      @default(now())
+  updatedAt    DateTime      @updatedAt
+
+  user         User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  maintenances Maintenance[]
+
+  @@map("cars")
+}
+
+model Maintenance {
+  id                      String              @id @default(uuid())
+  carId                   String
+  type                    MaintenanceType
+  date                    DateTime
+  place                   String?
+  mechanic                String?
+  description             String?
+  cost                    Decimal?            @db.Decimal(10, 2)
+  nextMaintenanceDate     DateTime?
+  nextMaintenanceKm       Int?
+  nextMaintenanceNotified Boolean             @default(false)
+  createdAt               DateTime            @default(now())
+  updatedAt               DateTime            @updatedAt
+
+  car    Car                  @relation(fields: [carId], references: [id], onDelete: Cascade)
+  photos MaintenancePhoto[]
+
+  @@map("maintenances")
+}
+
+model MaintenancePhoto {
+  id            String      @id @default(uuid())
+  maintenanceId String
+  photoUrl      String
+  fileName      String
+  createdAt     DateTime    @default(now())
+
+  maintenance Maintenance @relation(fields: [maintenanceId], references: [id], onDelete: Cascade)
+
+  @@map("maintenance_photos")
+}
+
+model MaintenanceInterval {
+  id              String           @id @default(uuid())
+  name            String
+  maintenanceType MaintenanceType?
+  intervalKm      Int?
+  intervalMonths  Int?
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+
+  @@map("maintenance_intervals")
+}
+
+enum MaintenanceType {
+  OIL_CHANGE          // Cambio de aceite
+  TIRE_CHANGE         // Cambio de neumáticos
+  ALIGNMENT           // Alineado
+  BALANCING           // Balanceado
+  BELT_CHANGE         // Cambio de correa
+  BRAKE_SERVICE       // Service de frenos
+  FILTER_CHANGE       // Cambio de filtros
+  SPARK_PLUGS         // Bujías
+  BATTERY             // Batería
+  SUSPENSION          // Suspensión
+  TRANSMISSION        // Transmisión
+  COOLING_SYSTEM      // Sistema de refrigeración
+  ELECTRICAL          // Sistema eléctrico
+  GENERAL_SERVICE     // Service general
+  OTHER               // Otro
+}
